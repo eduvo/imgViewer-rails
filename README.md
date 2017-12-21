@@ -15,6 +15,15 @@ And then execute:
 
 ## How to use
 
+Add to your JavaScript manifest file (application.js):
+
+```js
+//= require hammer
+//= require jquery.hammer
+//= require jquery.mousewheel
+//= require imgViewer
+```
+
 Visit [official doc](https://github.com/waynegm/imgViewer#documentation)
 
 [version-badge]: https://badge.fury.io/rb/imgViewer-rails.svg

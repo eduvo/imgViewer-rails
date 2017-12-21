@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = 'imgViewer-rails'
   gem.require_paths = ['lib']
   gem.version       = Jquery::ImgViewer::VERSION
+  gem.add_runtime_dependency 'hammerjs-rails', '>= 2.0.8'
+  gem.add_runtime_dependency 'jquery_mousewheel_rails', '>= 3.1.12'
 end
